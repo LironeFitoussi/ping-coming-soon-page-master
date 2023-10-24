@@ -11,6 +11,43 @@
   --Very-Dark-Blue: hsl(209, 33%, 12%);
 }
 
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5vw;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  gap: 5vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.logo {
+  width: 18vw;
+  margin: 4vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dashboard {
+  width: 100%;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
