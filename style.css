@@ -11,12 +11,6 @@
   --Very-Dark-Blue: hsl(209, 33%, 12%);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
-
-* {
-  font-family: 'Libre Franklin', sans-serif;
-}
-
 p, h1 {
   margin: 0;
   padding: 0;
@@ -31,6 +25,7 @@ body {
   min-height: 100vh;
   margin: 0;
   gap: 5vh;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 header {
@@ -44,6 +39,17 @@ header {
 .logo {
   width: 18vw;
   margin: 4vh;
+}
+
+h1 > span {
+  font-weight: 100;
+  color: var(--Gray);
+  font-size: 20px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 12px;
 }
 
 main {
