@@ -11,6 +11,12 @@
   --Very-Dark-Blue: hsl(209, 33%, 12%);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 p, h1 {
   margin: 0;
   padding: 0;
