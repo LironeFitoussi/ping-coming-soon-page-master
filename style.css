@@ -16,6 +16,10 @@ p, h1 {
   padding: 0;
 }
 
+* {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -25,7 +29,6 @@ body {
   min-height: 100vh;
   margin: 0;
   gap: 5vh;
-  font-family: 'Libre Franklin', sans-serif;
 }
 
 header {
@@ -37,14 +40,17 @@ header {
 }
 
 .logo {
-  width: 18vw;
+  width: 14vw;
   margin: 4vh;
+}
+
+h1 {
+  font-size: 20px;
 }
 
 h1 > span {
   font-weight: 100;
   color: var(--Gray);
-  font-size: 20px;
 }
 
 p {
@@ -56,7 +62,37 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 10vh;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1.5vh;
+}
+
+input {
+  border-radius: 5rem;
+  border: solid 1px var(--Pale-Blue);
+  padding: 2vh 9vw;
+  font-weight: 100;
+}
+
+input::placeholder {
+  color: var(--Pale-Blue);
+}
+
+button {
+  border-radius: 5rem;
+  border: none;
+  background-color: var(--Blue);
+  color: #ffffff;
+  padding: 2vh 9vw;
+  box-shadow: var(--Pale-Blue) 0px 7px 29px 0px;
+}
+
 .dashboard {
   width: 100%;
 }
