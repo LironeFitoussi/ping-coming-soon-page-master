@@ -137,3 +137,16 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+#errorMessage {
+  position: relative;
+  color: red;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  
+}
+
+.errorState {
+  border: solid 1px red;
+}

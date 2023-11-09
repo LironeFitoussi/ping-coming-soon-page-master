@@ -1,0 +1,51 @@
+body {
+    width: 45vw;
+    margin: auto;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+    width: 6vw;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 2.5vh 4vw;
+    grid-column-start: 5;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: var(--Pale-Blue);
+}
+
+input {
+    padding: 2.5vh 2vw;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 2vh;
+}
+
+.social-logos .btn {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+#errorMessage {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
